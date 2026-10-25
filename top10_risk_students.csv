@@ -1,0 +1,11 @@
+roll_no,student_name,subject,total_classes,present,absent,excused,attendance_pct,status,classes_needed_75,last_present_date,consecutive_absences,attendance_pct_num,last_present_date_dt,attendance_category,risk_score,classes_needed_numeric,attendance_flag,binned_attendance,base_name
+4MW23AD50,SRAJAN  S,Data Science & GenAI - 3nd Yr- AI&DS,11,0,11,0,0%,Critical,33 more,Never,11,0.0,,Poor,11.0,33,Defaulter,Critical,SRAJAN
+4MW24AD037,RISHAN FRANCIS MENEZES,Data Science & GenAI - 3nd Yr- AI&DS,10,0,10,0,0%,Critical,30 more,Never,10,0.0,,Poor,10.0,30,Defaulter,Critical,RISHAN
+4MW24AD054,UJWAL. K,Data Science & GenAI - 3nd Yr- AI&DS,10,0,10,0,0%,Critical,30 more,Never,10,0.0,,Poor,10.0,30,Defaulter,Critical,UJWAL.
+4MW24AD060,AMITH G PALANDYE,Data Science & GenAI - 3nd Yr- AI&DS,10,0,10,0,0%,Critical,30 more,Never,10,0.0,,Poor,10.0,30,Defaulter,Critical,AMITH
+4MW24AD046,SHARANU PATIL,Data Science & GenAI - 3nd Yr- AI&DS,10,0,10,0,0%,Critical,30 more,Never,10,0.0,,Poor,10.0,30,Defaulter,Critical,SHARANU
+4MW25AD400,SAMPATH S HEBBAR,Data Science & GenAI - 3nd Yr- AI&DS,10,1,9,0,10%,Critical,26 more,2026-09-02,8,10.0,2026-09-02,Poor,8.4,26,Defaulter,Critical,SAMPATH
+4MW24AD027,PRAJWAL,Data Science & GenAI - 3nd Yr- AI&DS,11,3,8,0,27%,Critical,21 more,2026-10-05,1,27.0,2026-10-05,Poor,3.8000000000000003,21,Defaulter,Critical,PRAJWAL
+4MW24AD009,BHARATHRAJ A NAYAK,Data Science & GenAI - 3nd Yr- AI&DS,11,4,7,0,36%,Critical,17 more,2026-10-05,1,36.0,2026-10-05,Poor,3.4000000000000004,17,Defaulter,Critical,BHARATHRAJ
+4MW24AD031,PRAVEEN KUMAR N,Data Science & GenAI - 3nd Yr- AI&DS,10,3,7,0,30%,Critical,18 more,2026-10-07,0,30.0,2026-10-07,Poor,2.8000000000000003,18,Defaulter,Critical,PRAVEEN
+4MW24AD032,PREETH SHETTY,Data Science & GenAI - 3nd Yr- AI&DS,10,5,5,0,50%,Critical,10 more,2026-10-05,1,50.0,2026-10-05,Poor,2.6,10,Defaulter,Critical,PREETH
