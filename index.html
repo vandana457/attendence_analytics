@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Attendance Analytics Dashboard</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .kpi-cards {
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        .card {
+            flex: 1;
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 5px solid #007bff;
+            text-align: center;
+        }
+        .card.critical { border-left-color: #dc3545; }
+        .card.warning { border-left-color: #ffc107; }
+        .card.safe { border-left-color: #28a745; }
+        .card h3 {
+            margin: 0;
+            font-size: 14px;
+            color: #6c757d;
+            text-transform: uppercase;
+        }
+        .card p {
+            margin: 10px 0 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #2c3e50;
+            color: white;
+        }
+        tr:hover { background-color: #f1f1f1; }
+        .status-badge {
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 12px;
+            font-weight: bold;
+            color: white;
+        }
+        .badge-critical { background-color: #dc3545; }
+        .badge-warning { background-color: #ffc107; color: #333; }
+        .badge-safe { background-color: #28a745; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Student Attendance Analytics Dashboard</h1>
+    
+    <div class="kpi-cards">
+        <div class="card">
+            <h3>Total Students</h3>
+            <p>62</p>
+        </div>
+        <div class="card">
+            <h3>Avg Attendance</h3>
+            <p>69.84%</p>
+        </div>
+        <div class="card critical">
+            <h3>Critical (&lt;75%)</h3>
+            <p>32</p>
+        </div>
+        <div class="card warning">
+            <h3>Warning (80-82%)</h3>
+            <p>7</p>
+        </div>
+        <div class="card safe">
+            <h3>Safe (≥90%)</h3>
+            <p>23</p>
+        </div>
+    </div>
+
+    <h2>Top Priority Action List (Chronic Absentees)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Roll No</th>
+                <th>Student Name</th>
+                <th>Attendance %</th>
+                <th>Consecutive Absences</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>4MW23AD50</td>
+                <td>SRAJAN S</td>
+                <td>0%</td>
+                <td>11</td>
+                <td><span class="status-badge badge-critical">Critical</span></td>
+            </tr>
+            <tr>
+                <td>4MW24AD037</td>
+                <td>RISHAN FRANCIS MENEZES</td>
+                <td>0%</td>
+                <td>10</td>
+                <td><span class="status-badge badge-critical">Critical</span></td>
+            </tr>
+            <tr>
+                <td>4MW24AD046</td>
+                <td>SHARANU PATIL</td>
+                <td>0%</td>
+                <td>10</td>
+                <td><span class="status-badge badge-critical">Critical</span></td>
+            </tr>
+            <tr>
+                <td>4MW24AD054</td>
+                <td>UJWAL. K</td>
+                <td>0%</td>
+                <td>10</td>
+                <td><span class="status-badge badge-critical">Critical</span></td>
+            </tr>
+            <tr>
+                <td>4MW24AD060</td>
+                <td>AMITH G PALANDYE</td>
+                <td>0%</td>
+                <td>10</td>
+                <td><span class="status-badge badge-critical">Critical</span></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
